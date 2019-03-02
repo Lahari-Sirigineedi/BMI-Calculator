@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+ <!--HEAD SECTION -->
+   <head>
+     <title>BMI Calculator</title>
+     <meta charset="utf-8" />
+     <link rel="stylesheet" href="style.css" type = "text/css">
+   </head>
+ <!-- END HEAD -->
+
+ <!-- BODY -->
+  <body>
+      <script src="script.js"></script>
+      <h1>Find Your BMI(Body Mass Index)</h1>
+      <img src = "image BMI 1.jpg">
+      <div class="top-left">Weight:
+      <input type="text"  id="t1" name="value1" style="height:30px" />
+      <br/><br/>
+      </div>
+      <div class= "top-left1">Height:</font>
+      <input type="text" id="t21" name="value2" style="height:30px" placeholder = "feets"/>
+      <input type="text" id="t22" name="value2" style="height:30px" placeholder = "inches" />
+      <br/><br/>
+      <input type="button"  value="Click Here" onclick="computeBMI()"/><br/><br/>
+      <font-size="25px">Resulted BMI:</font>
+      <input type="text" id="bmi"  style="height:30px"/>
+      <h5><span id="comment"></span><h5>
+      <div class="topright" id="k">
+      <h4 style="color:#000000;">Note:</h4>
+      <p style="color:#0000ff;">This is the BMI which is calculated using weight and <br/> height but this will not measure body fat directly,
+      the <br/> overweight or obese may occur due to body fat or it <br/> might be due to bone weight. &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br/></br> &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp So consult a Doctor before you start dieting after seeing this result.</p>
+      </div>
+  </body>
+<!-- END BODY -->
+
+  </html>
