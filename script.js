@@ -21,23 +21,23 @@ function computeBMI() {
     c.value=total;
 
     if (c.value >0 && c.value < 18.5) {
-    document.getElementById("comment").innerText = "You are Thin";
-    var x = document.getElementById("k");
+    document.getElementById("comment1").innerText = "You are Thin";
+    var x = document.getElementById("k1");
       if (x.style.display != "none") {
         x.style.display = "block";
       } else {
         x.style.display = "none";
       }
-  } else if (c.value >18.6 && c.value < 24.9) {
-      document.getElementById("comment").innerText = "You are Healthy";
-      var x = document.getElementById("k");
+  } else if (c.value >18.5 && c.value <= 24.9) {
+      document.getElementById("comment1").innerText = "You are Healthy";
+      var x = document.getElementById("k1");
         if (x.style.display != "none") {
           x.style.display = "block";
         } else {
           x.style.display = "none";
         }
   }
-  else if (c.value >25 && c.value < 29.9) {
+  else if (c.value >=25 && c.value <= 29.9) {
      document.getElementById("comment").innerText = "Over Weight";
      var x = document.getElementById("k");
        if (x.style.display != "none") {
